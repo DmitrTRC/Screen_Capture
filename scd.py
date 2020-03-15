@@ -28,4 +28,4 @@ else:
     result_path = os.path.join(os.environ.get('HOME'), base_path, base_name + suffix_data)
 print(result_path)
 screen = pyautogui.screenshot()
-# screen.save(result_path)
+screen.save(result_path)
